@@ -55,16 +55,19 @@ nav {
     background: #FF965A;
     background: linear-gradient(to top, #FF965A, #FF6F00);
 }
+
 @media screen and (max-width: 768px) {
-    .logo{
+    .logo {
         height: fit-content;
         width: fit-content;
-        align-self: center; 
+        align-self: center;
     }
-    .nav_wrapper{
+
+    .nav_wrapper {
         flex-direction: column;
         padding: 1vw;
     }
+
     .nav_link {
         padding: 18px;
         padding-top: 2px;
@@ -72,16 +75,18 @@ nav {
         color: #000000;
         font-size: 25px;
         text-shadow: 1px 1px 0px #402517;
-        border-left: 0px ;
-        border-right: 0px ;
+        border-left: 0px;
+        border-right: 0px;
         text-decoration: none;
     }
+
     .nav_link:hover {
         color: #000000;
         background: #FF965A;
         background: linear-gradient(to bottom, #FF965A, #FF6F00);
     }
 }
+
 /* Slide */
 .pictureOption {
     background-image: url("../image/Background.png");
@@ -122,12 +127,14 @@ nav {
     padding: 1vw;
     font-size: 30px;
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     .profil_section {
         display: flex;
         flex-direction: column;
         gap: 2vw;
-    }    
+    }
+
     .profil_picture {
         border-radius: 24px;
         height: 50vw;
@@ -184,13 +191,14 @@ nav {
     justify-content: flex-start;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .article_section {
         display: flex;
         flex-direction: column;
         padding: 2vw;
         gap: 2vw;
     }
+
     .article_image_home {
         display: flex;
         flex-direction: column;
@@ -198,8 +206,8 @@ nav {
         width: 100%;
         border-radius: 24px;
         justify-content: center;
-        padding: ;
     }
+
     .article_image {
         display: flex;
         flex-direction: column;
@@ -238,7 +246,7 @@ nav {
     top: 1vw;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .link {
         font-size: 17px;
         padding-right: 1vw;
